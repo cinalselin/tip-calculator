@@ -14,4 +14,4 @@ Illustrations by freepik
 
 ## Screenshots
 
-![App Screenshot](assets/screenshots/carbon_Template_tip-calculator.png)
+![App Screenshot](./assets/screenshots/carbon_Template_tip-calculator.png)
