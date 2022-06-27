@@ -1,7 +1,6 @@
 # Tip Calculator created with JavaScript
 
-This tip calculator allows you to split the bill fairly among the group and also gives you the
-option, depending on the service, to choose whether you want to leave
+This tip calculator allows you to split the bill fairly among the group and also gives you the option, depending on the service, to choose whether you want to leave 2%, 10% or 20% tip.
 
 ## Demo
 
