@@ -6,7 +6,7 @@ option, depending on the service, to choose whether you want to leave
 ## Demo
 
 Desktop only!
-https://cinalselin.github.io/cinalselin-tip-calculator/
+https://cinalselin.github.io/tip-calculator-/
 
 ## License
 
