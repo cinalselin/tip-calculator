@@ -5,7 +5,7 @@ This tip calculator allows you to split the bill fairly among the group and also
 ## Demo
 
 Desktop only!
-https://cinalselin.github.io/tip-calculator-/
+https://cinalselin.github.io/tip-calculator/
 
 ## License
 
