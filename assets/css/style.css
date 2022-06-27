@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+:root {
+    --orange: #F6725E;
+    --greenGray: rgba(96, 112, 96, 0.133);
+    --beige: rgb(244, 238, 230);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-color: var(--beige);
+}
+
+/* **************** BUBBLE ****************** */
+
+.bubble {
+    font-size: 1rem;
+    border: 1px solid #F6725E;
+    color: #F6725E;
+    background-color: var(--greenGray);
+    border-radius: 68% 32% 32% 68% / 59% 56% 44% 41%;
+    Width:400px;
+    height:450px;
+    padding: 10% 4% 5%;
+}
+
+.bubble h1 {
+    margin-bottom: 10px;;
+}
+
+.bubble span {
+    font-weight: 700;
+}
+
+section {
+    display: flex;
+    padding-left: 10%;
+    align-items: center;
+    gap: 10px;
+    height:100vh;
+    background-size: 20%;
+}
+
+/* **************** RECEIPT ****************** */
+
+.receiptContainer {
+    display: flex;
+    flex-direction: column;
+    background: url(/assets/img/receipt.svg) no-repeat;
+    height: 700px;
+    width: 350px;
+    padding: 15px;
+}
+
+
+.imgContainer img {
+    width: 250px;
+}
+
+.coin {
+    text-align: center;
+    margin: 40px 0;
+    color: var(--orange);
+}
+
+/* **************** FORM ****************** */
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px dotted black;
+}
+
+form label {
+    color: var(--orange);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+form input, form select {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+.submitContainer {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    margin: 50px 0;
+    width: 50%;
+    height:50px;
+    background-color: var(--orange);
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.15rem;
+    border-radius: 25px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(96, 112, 96, 0.133);
+    cursor: pointer;
+    color: var(--orange);
+}
+
+/* **************** RESULT ****************** */
+
+.resultContainer {
+    margin-top: 50px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.resultContainer h3 {
+    font-size: 1rem;
+    color: var(--orange);
+    font-weight: 300;
+}
+
+.resultContainer p {
+    font-size: 1rem;
+    color: var(--orange);
+    font-weight: 700;
+    display:flex;
+    justify-content: flex-end;
+}
+
+

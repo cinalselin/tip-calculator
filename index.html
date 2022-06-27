@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip-Calculator</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="bubble">
+                <h1>Tip Calculator</h1>
+                <p>This tip calculator allows you to split the bill fairly among the group and also gives you the
+                    option,
+                    depending on the service, to choose whether you want to leave <span> 2%, 10%</span> or <span> 20%
+                    </span>tip.</p>
+            </div>
+
+            <div class="imgContainer">
+                <img src="./assets/img/human.svg" alt="human illustration">
+            </div>
+            <div class="receiptContainer">
+                <div class="coin">
+                    <h2>$</h2>
+                </div>
+                <form onsubmit="tipCalculate(event)">
+                    <label for="bill">Bill Amount</label>
+                    <input type="number" name="bill" id="bill" placeholder="125">
+                    <label for="person">Number of People</label>
+                    <input type="number" name="person" id="person" placeholder="3">
+                    <label for="service">How was the service?</label>
+                    <select name="service" id="service">
+                        <option value="2">Bad</option>
+                        <option value="10">Good</option>
+                        <option value="20">Perfect</option>
+                    </select>
+                    <div class="submitContainer">
+                        <input type="submit" value="Calculate">
+                    </div>
+                </form>
+                <div class="resultContainer">
+                    <h3>Tip Amount</h3>
+                    <p id="tipAmount"></p>
+                    <h3>Total Bill Amount:</h3>
+                    <p id="billAmount"></p>
+                    <h3>Total Bill per Person:</h3>
+                    <p id="ppAmount"></p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
