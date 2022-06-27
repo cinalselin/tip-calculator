@@ -37,10 +37,6 @@ main {
     margin-bottom: 10px;;
 }
 
-.bubble span {
-    font-weight: 700;
-}
-
 section {
     display: flex;
     align-items: center;
@@ -70,12 +66,18 @@ section {
     text-align: center;
     margin: 40px 0;
     color: var(--orange);
+    padding: 0 15px;
 }
 
 .coin p {
     margin-top:10px;
     color: grey;
     font-size: 14px;
+}
+
+.coin span {
+    font-weight: 700;
+    color: var(--orange);)
 }
 
 /* **************** FORM ****************** */
