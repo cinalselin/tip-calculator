@@ -55,7 +55,7 @@ section {
 .receiptContainer {
     display: flex;
     flex-direction: column;
-    background: url(../img/receipt.svg) no-repeat;
+    background: url("../img/receipt.svg") no-repeat;
     height: 700px;
     width: 350px;
     padding: 15px;
